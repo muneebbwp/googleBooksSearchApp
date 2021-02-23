@@ -23,7 +23,7 @@ class App extends Component {
           <Wrapper>
             <Route exact path="/" Component={Search} />
             <Route exact path="/search" Component={Search} />
-            {/*<Route exact path="/saved" Component={Saved} />*/}
+            <Route exact path="/saved" Component={Saved} />
             <Route exact path="/noMatch" Component={NoMatch} />
           </Wrapper>
         </div>
