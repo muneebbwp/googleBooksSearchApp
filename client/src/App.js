@@ -20,9 +20,9 @@ class App extends Component {
           <Header />
           <Wrapper>
             <Route exact path="/" component={Search} />
-            <Route exact path="/search" component={Search} />
-            <Route exact path="/saved" component={Saved} />
-            <Route exact path="/noMatch" component={NoMatch} />
+            <Route exact path="/Search" component={Search} />
+            <Route exact path="/Saved" component={Saved} />
+            <Route exact path="/NoMatch" component={NoMatch} />
           </Wrapper>
         </div>
       </Router>
