@@ -1,7 +1,7 @@
 {
-  "name": "google-books",
+  "name": "googlebookssearch",
   "version": "1.0.0",
-  "description": "Google Books",
+  "description": "Google Books Search App",
   "engines": {
     "node": "14.15.4"
   },

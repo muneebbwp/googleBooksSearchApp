@@ -5,8 +5,8 @@ import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 
 import NoMatch from "./pages/NoMatch";
-import Search from "./pages/Search";
-import Saved from "./pages/Saved";
+import Search from "./pages/search";
+import Saved from "./pages/saved";
 
 import "./App.css";
 
@@ -20,8 +20,8 @@ class App extends Component {
           <Header />
           <Wrapper>
             <Route exact path="/" component={Search} />
-            <Route exact path="/Search" component={Search} />
-            <Route exact path="/Saved" component={Saved} />
+            <Route exact path="/search" component={Search} />
+            <Route exact path="/saved" component={Saved} />
             <Route exact path="/NoMatch" component={NoMatch} />
           </Wrapper>
         </div>
